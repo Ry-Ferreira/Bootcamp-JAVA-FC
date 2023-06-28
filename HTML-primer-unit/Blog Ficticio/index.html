@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Ficticio</title>
+</head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profile {
+    width: 250px;
+    height: 225px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>Michael Jordan</h1>
+        <img src="i-9650.webp" alt="Foto de perfil" id="profile">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, possimus facere mollitia officia quos recusandae dicta labore? Accusamus impedit provident minus sapiente totam laudantium maiores fugit sequi non ut unde deserunt, voluptatem nam aperiam, natus hic eveniet iusto nostrum, autem placeat pariatur corrupti possimus corporis? Exercitationem optio sequi eius, cum nesciunt laboriosam quidem odit dicta ex recusandae magni aliquid eum.</p>
+
+        <table>
+            <tr>
+                <th scope="col">Año</th>
+                <th scope="col">PPG</th>
+                <th scope="col">MPV</th>
+            </tr>
+            <tr>
+                <td>1990-91</td>
+                <td>31.5</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>1991-92</td>
+                <td>30.1</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>1992-93</td>
+                <td>32.6</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>1995-96</td>
+                <td>30.4</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>1996-97</td>
+                <td>29.6</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>1997-98</td>
+                <td>28.7</td>
+                <td>Sí</td>
+            </tr>
+        </table>
+
+        <ul>
+            <li>1984 - 1983 Chicago Bulls</li>
+            <li>1995 - 1998 Chicago Bulls</li>
+            <li>2001 - 2003 Washington Wizards</li>
+        </ul>
+        
+        <a rel="stylesheet" href="#">Haz clic acá para un increíble video destacado</a>
+        
+        <form action="">
+            <h2>Por favor, contesta esta breve encuesta</h2>
+            <label>
+                Email: <input type="email" name="email">
+            </label>
+            <label>
+                <input type="radio" name="correos" value="si"> Sí, por favor enviame montones de correos
+            </label>
+    
+            <label>
+                <input type="radio" name="correos" value="no"> No por favor, no me mandes ningún correo
+            </label>
+    
+            <p>¿Cómo supiste de nosotros?</p>
+            <label>
+                <input type="checkbox" name="sobreNosotros" value="facebook"> Facebook
+            </label>
+
+            <label>
+                <input type="checkbox" name="sobreNosotros" value="periódico"> El periódico
+            </label>
+
+            <label>
+                <input type="checkbox" name="sobreNosotros" value="contacto"> Un contacto
+            </label>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+
+
+</body>
+</html>
