@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <form action="">
+        <label>
+            Nombre: <input type="text" name="nombre">
+        </label>
+
+        <label>
+            Apellido: <input type="text" name="apellido">
+        </label>
+
+        <label>
+            Email: <input type="email" name="email">
+        </label>
+
+        <label>
+            Contraseña: <input type="password" name="contraseña">
+        </label>
+
+        <label>
+            Confirmar: <input type="password" name="confirmar">
+        </label>
+
+        <label>
+            Cumpleaños: <input type="date" name="cumpleaños">
+        </label>
+
+        <label>
+            Hombre<input type="radio" name="genero" value="Hombre">
+        </label>
+
+        <label>
+            Mujer<input type="radio" name="genero" value="Mujer">
+        </label>
+
+        <label>
+            Otro<input type="radio" name="genero" value="Otro">
+        </label>
+
+        <label>
+            Una breve descripción de ti: <textarea name="descripción"></textarea>
+        </label>
+
+        <label for="favLenguaje">Lenguaje Favorito</label>
+        <select name="favLenguaje" id="favLenguaje">
+            <option value="javascript">JavaScript</option>
+            <option value="css">CSS</option>
+            <option value="html">HTML</option>
+        </select>
+
+        <input type="submit" value="Presiona aquí para registrarte">
+    </form>
+</body>
+</html>
