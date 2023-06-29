@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+.wrapper {
+    width: 970px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: rgb(12, 93, 165);
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: rgb(144, 209, 240);
+    background-color: rgb(168, 22, 22);
+}
+
+
+.nav {
+    background: rgb(107, 147, 180);
+    display: inline-block;
+    padding: 15px 25px;
+    color: rgb(120, 255, 255);
+}
+.nav a {
+    color: rgb(120, 255, 255);
+}
+
+#navList {
+    margin-left: 18px;
+}
+
+#subList {
+    margin-left: 20px;
+}
+
+.mainContent {
+    color: rgb(144, 209, 240);
+    background: rgb(19, 31, 53);
+    display: inline-block;
+    vertical-align: top;
+    width: 704px;
+    margin-left: 15px;
+    padding: 20px 30px;
+}
+
+.mainContent h2 {
+    margin-bottom: 10px;
+}
+
+.mainContent p {
+    margin-bottom: 10px;
+}
+
+.mainList {
+    margin-left: 18px;
+}
+
+.mainContent a {
+    color: rgb(144, 209, 240);
+}
+
+.inText {
+    color: rgb(83, 83, 228);
+}
+
+footer {
+    background: rgb(56, 85, 117);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* CLASES GENERALES */
+
+
+
+span {
+    color: rgb(120, 255, 255);
+}
+
+.border {
+    border-radius: 20px;
+}
