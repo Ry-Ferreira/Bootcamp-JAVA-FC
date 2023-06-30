@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    min-height: 100vh;
+    background: linear-gradient(#3d2b32, rgb(100, 77, 89), #3d2b32);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 20px 0 black;
+}
+
+
+/*       HEADER CONTENT       */
+
+
+.container .header {
+    min-height: 8vh;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+    .container .header p {
+        display: inline-block;
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .container .header .title {
+        display: inline-block;
+        font-size: 2.2rem;
+    }
+
+
+/*      MAIN CONTENT     */
+
+    main {
+        height: 82vh;
+    }
+
+    .container .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container .about img {
+        width: 405px;
+        border: 3px solid rgb(189, 189, 189);
+    }
+
+    .container .aboutContent {
+        width: 410px;
+        min-height: 260px;
+        margin: 15px 0;
+    }
+    
+    .container .contentText {
+        background-color: rgb(210, 218, 224);
+    }
+
+        .container .aboutContent h3 {
+            background: linear-gradient(#bebebe, #979797, #bebebe);
+            color: white;
+            padding: 5px 0 5px 5px;
+            margin-bottom: 10px;
+        }
+
+        .container .aboutContent p {
+            padding-left: 10px;
+            padding-bottom: 15px;
+        }
+
+        .container .aboutContent a {
+            color: black;
+            padding-left: 10px;
+        }
+
+        
+/*     CARD CONTAINER     */
+
+
+        .container .cardContainer {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container .cardContainer .card {
+            display: flex;
+            flex-direction: column;
+            width: 290px;
+            min-height: 440px;
+            margin: 0 47px;
+            background-color: rgb(210, 218, 224);
+        }
+
+        .container .cardContainer .card > h2 {
+            padding: 5px 0 5px 10px;
+            background: linear-gradient(#bebebe, #979797, #bebebe);
+            color: white;
+        }
+
+        .container .cardContainer .card > h3 {
+            padding: 5px 0 5px 10px;
+            background: linear-gradient(#bebebe, #979797, #bebebe);
+            color: white;
+        }
+
+        .container .cardContainer .card > button {
+            width: fit-content;
+            text-decoration: none;
+            background-color: rgba(6, 85, 6, 0.815);
+            padding: 5px 15px;
+            box-shadow: 5px 5px 5px 0 gray;
+            margin: 10px auto;
+            color: white;
+            border: 1px solid rgb(4, 58, 4);
+            border-radius: 8px;
+        }
+
+        .container .cardContainer .card .pageImg {
+            width: 100%;
+            min-height: 100px;
+        }
+
+        
+        .container .cardContainer .icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            padding-top: 10px;
+        }
+        
+
+        /*      FOOTER CONTENT       */
+
+        .container footer {
+            background: rgb(221, 221, 221);
+            height: 8vh;
+            text-align: center;
+            margin-top: 15px;
+            padding-bottom: 4px;
+        }
+
+        .container footer div  {
+            display: inline;
+        }
+
+        .container footer p {
+            padding-top: 10px;
+        }
+
+        .container footer .contact {
+            display: flex;
+            width: 33%;
+            margin: auto;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+
+        .container footer .contact > div > img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .container footer .contact > div > a {
+            color: black;
+
+        }
+        
+        /*          CLASES GENERALES          */
+        
+        h1, h2, h3 {
+            margin: 0;
+        }
+        
+        .padLeft {
+            padding-left: 10px;
+        }
