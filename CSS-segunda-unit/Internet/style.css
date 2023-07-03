@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.container header {
+    width: 970px;
+    padding-top: 18px;
+}
+
+.container header .top {
+    align-items: center;
+}
+
+.container header .top .globe {
+    position: absolute;
+    top: -3px;
+    width: 70px;
+    height: 70px;
+}
+
+.container header .top .title {
+    display: inline-block;
+    padding-left: 80px;
+    color: #474747;
+    font-size: 30px;
+}
+
+.container header .top .title span {
+    color: #22659e;
+}
+
+.container header .subTitle {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0 5px 20px;
+    margin-top: 5px;
+    background: linear-gradient(#23659e,#5283ac,#23659e);
+}
+
+/*    NAV STYLE    */
+        .container .side  {
+            display: inline-block;
+            width: 180px;
+            height: 550px;
+            padding: 0 5px;
+        }
+
+        .container .side  h3 {
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 20px;
+        }
+
+        .container .side  h3 span {
+            color: red;
+            font-weight: bold;
+        }
+
+        .container .side p {
+            font-size: 13px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .container .side .btnContainer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .container .side .btnContainer button {
+            display: block;
+            padding: 8px 10px;
+            margin: 2px auto;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .side hr {
+            margin: 25px 0;
+        }
+
+        .container .side .advertising {
+            background-image: url(./images/ad_background.png);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 370px;
+            padding: 15px 0; 
+        }
+
+        .container .side .advertising > p {
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .container .side p > span {
+            color: #22659e;
+        }
+
+        .container .side  .advertising .ninja {
+            width: 80px;
+            height: 110px;
+        }
+        
+        .container .side .advertising > button {
+            font-size: 15px; 
+            margin: 0 auto;
+            padding: 5px 15px;
+            text-align: center;
+        }
+
+        .container .side .advertising > button > span {
+            font-size: 6px;
+            opacity: calc(0.6);
+        }
+
+        .container .side .advertising > button .arrow {
+            opacity: calc(1);
+        }
+
+        
+        
+        /*       MAIN STYLES       */
+        
+            main {
+                background: linear-gradient(#e3e3e3, white, white );
+            }
+
+            main .content{
+                display: inline-block;
+                width: 760px;
+                margin-left: 20px;
+                vertical-align: top;
+            }
+
+            main .content .dns {
+                padding-top: 10px;
+            }
+
+            main .content .dns > a {
+                color: #3773a6;
+            }
+
+            main .content .dns > img {
+                width: 20px;
+                height: 20px;
+            }
+
+            main .content .main-top {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 10px;
+                border-bottom: 1px solid gray;
+            }
+
+            main .content .main-top .phone > img {
+                width: 45px;
+                height: 45px;
+                margin-top: 5px;
+                margin-right: 8px;
+            }
+
+            main .content .main-top .phone .phoneTxt {
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+            }
+
+            main .content .main-top .phone .phoneTxt > p {
+                font-size: 10px;
+            }
+
+            main .content .main-top .phone .phoneTxt .phoneNum {
+                font-size: 25px;
+                font-weight: bold;
+                color: #04aeda;
+            }
+
+                /*     ESTILO DEL TEXTO PRINCIPAL    */
+
+                main .content .content-text * span {
+                    color:#71c5d3;
+                    font-weight: bold;
+                }
+
+                main .content .content-text h2 {
+                    margin-bottom: 8px;
+                    color: #22659e;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+
+
+
+                main .content .content-text p,
+                main .content .content-text ul li,
+                main .content .content-text ol li {
+                    font-size: 16px;
+                }
+        
+                main .content .content-text ul,
+                main .content .content-text ol {
+                    margin-left: 45px;
+                    margin-top: 5px;
+                }
+
+                main .content .content-text ul li,
+                main .content .content-text ol li {
+                    margin: 5px 0;
+                }
+
+                main .content .content-text > img {
+                    width: 50%;
+                    margin: 20px 25%;
+                }
+
+
+
+                    /*      ESTILOS DEL FOOTER      */ 
+
+                    footer {
+                        width: 100%;
+                        padding: 15px 0;
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: center;
+                        border-top: 3px solid #0085e0;
+                        border-right: 3px solid #0085e0;
+                        border-left: 3px solid #0085e0;
+                    }
+                    
+                    footer > img {
+                        width: 15%;
+                        height: 100px;
+                    }
+
+                    footer .footer-text {
+                        display: inline-block;
+                        width: 80%;
+                        margin-left: 15px;
+                    }
+
+                    footer .footer-text h2 {
+                        margin-bottom: 8px;
+                        color: #22659e;
+                        font-size: 22px;
+                        font-weight: bold;
+                    }
+
+                    footer .footer-text p {
+                        margin-top: 5px;
+                        font-size: 16px;
+                    }
+
+
+        /*    CLASES GENERALES     */
+
+
+        .btn {
+            width: 90%;
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0px 5px 10px -5px rgba(105,101,101,0.75);
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
