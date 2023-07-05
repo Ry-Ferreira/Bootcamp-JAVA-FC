@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 970px;
+    background-color: #d4d2ae;
+}
+
+/*      HEADER      */
+
+.container header {
+    width: 75%;
+    margin: 40px auto 10px auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container header > img {
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+}
+
+.container header > h1 {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/*      IMAGENES      */
+
+    main {
+        width: 950px;
+        margin: 10px auto;
+    }
+
+    .container main .grid-container img {
+        width: 232px;
+        border: 5px solid black;
+    }
+
+    .container main .grid-container .item-4 .image-x {
+        width: 232px;
+        height: 232px;
+    } 
+
+    .container main .grid-container {
+        display: grid;
+        grid-template-areas:
+            'row-1 row-1 row-1 row-1'
+            'row-2 row-2 row-2 row-2'
+            'row-3 row-3 row-3 row-3'
+            'row-4 row-4 row-4 row-4';
+        gap: 5px;
+    }
+
+
+
+    /*        DEFINICIÓN DE AREAS DE GRID         */
+
+.item1 { grid-area: row-1; }
+.item2 { grid-area: row-2; }
+.item3 { grid-area: row-3; }
+.item4 { grid-area: row-4; }
