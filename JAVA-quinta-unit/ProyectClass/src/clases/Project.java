@@ -13,18 +13,15 @@ public class Project {
 	public Project(){
 		nombre = "Torre";
 		descripcion = "Torre ejecutiva de Honduras";
-		elevatorPitch();
 	};
 	
 	public Project(String name) {
 		this.nombre = name;
 		descripcion = "Isla Fidji";
-		elevatorPitch();
 	}
 	
 	public Project(String name, String description) {
 		this.nombre = name;
 		this.descripcion = description;
-		elevatorPitch();
 	}
 }
