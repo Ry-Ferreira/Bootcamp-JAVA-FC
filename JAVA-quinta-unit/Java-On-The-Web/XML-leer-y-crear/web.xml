@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<dinnerMenu>
+    <item category="pastas">
+        <name>Tallarines con salsa</name>
+        <description>
+            Tallarines con salsa de tomate y especias, acompañada de carne de pollo
+        </description>
+        <price>$10.99</price>
+    </item>
+    <item category="sopa">
+        <name>Sopa de verduras</name>
+        <description>
+            Sopa de verdura, con pollo en pequeños pedazos, con especias de origen vegetal y crema. 
+        </description>
+        <price>$13.85</price>
+    </item>
+    <item category="asado">
+        <name>Corte de vaca de tipo Asado</name>
+        <description>
+            Carne asada a la parrilla acomapañada con vegetales y papas rústicas 
+        </description>
+        <price>$17.85</price>
+    </item>
+    <item category="bebidas">
+        <name>Gaseosas y vinos</name>
+        <description>
+            Coca-Cola
+        </description>
+        <description>
+            Fanta
+        </description>
+        <description>
+            Cerveza lager
+        </description>
+        <description>
+            Vino tinto
+        </description>
+        <price>$3.99</price>
+    </item>
+</dinnerMenu>
+
+<lunchMenu>
+    <item category="entradas">
+        <name>Ensalada con Pollo</name>
+        <description>Una ensalada con pollo.</description>
+        <price>$10.99</price>
+    </item>
+    <item category="entradas">
+        <name>Sánduche de Pollo</name>
+        <description>Un sánduche de pollo. </description>
+        <price>$12.99</price>
+    </item>
+    <item category="entradas">
+        <name>Sánduche de Pastrami</name>
+        <description>Un sánduche hecho con pastrami.</description>
+        <price>$13.99</price>
+    </item>
+    <item category="bebidas">
+        <name>Coca-Cola</name>
+        <description>Una gaseosa.</description>
+        <price>$0.99</price>
+    </item>
+    <item category="bebidas">
+        <name>Jugo de Naranja</name>
+        <description>Un jugo hecho con naranjas.</description>
+        <price>$0.99</price>
+    </item>    
+</lunchMenu>
