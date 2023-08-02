@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import com.ryan.bookAPI.models.BookModel;
 import com.ryan.bookAPI.repositories.BookRepo;
 
+import jakarta.validation.Valid;
+
 
 @Service
 public class BookService {
@@ -42,6 +44,17 @@ public class BookService {
             return null;
         }
     }
+    
+    //ACTUALIZAR LIRBO
+    public BookModel updateBook(BookModel libro) {
+    	BookModel temporal = findBook(libro.getId());
+    	temporal.setDescription(libro.getDescription());
+    	temporal.setLanguage(libro.getLanguage());
+    	temporal.setNumberOfPages(libro.getNumberOfPages());
+    	temporal.setTitle(libro.getTitle());
+    	return bookrepo.save(temporal);
+    }
+    
     
     //ACTUALIZAR INFORMACION
     public BookModel updateBook(
