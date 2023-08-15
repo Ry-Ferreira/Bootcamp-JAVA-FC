@@ -30,6 +30,11 @@
         		<form:input type="text" path="name" class="form-control w-50"/>
     		</div>
     		<input type="submit" value="Crear Categoria" class="my-4 btn bg-success"/>
+    		<div class="d-flex justify-content-between align-items-center mt-2">
+				<a href="/" class="text-decoration-none border rounded border-dark bg-secondary text-white p-2 col-3 text-center">Volver</a>
+				<p class="m-0">|</p>
+				<a href="/products/new" class="text-decoration-none border rounded border-dark bg-secondary text-white p-2 col-3 text-center">Productos</a>
+			</div>
 		</form:form>   		
 	</div>
 </body>

@@ -52,9 +52,6 @@ public class MainService {
 		return categoryRepo.findByProductsNotContains(product);
 	}
 	
-	public List<Category> productoConCategoria(Product product){
-		return categoryRepo.findByProductsWithCategories(product);
-	}
 	
 	public Product unProducto(Long id) {
 		return productRepo.findById(id).orElse(null);
