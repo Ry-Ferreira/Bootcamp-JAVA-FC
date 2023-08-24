@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.vl {
+  border-left: 6px solid white;
+  height: 25px;
+  right: 50%;
+  top: 0;
+}
